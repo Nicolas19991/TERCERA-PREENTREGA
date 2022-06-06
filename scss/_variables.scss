@@ -1,0 +1,24 @@
+/*COLORES*/
+
+$color-seccion:#212529;
+
+$color-seccion2: rgb(209, 87, 87);
+
+/*FONTS*/
+
+$font-seccion: 'Orbitron', sans-serif;
+
+$font-parrafos: monospace;
+
+/*MAP GET*/
+
+$colorParrafos: (
+    Primario:rgb(190, 179, 255),
+    secundario:rgb(223, 154, 142)
+);
+
+/*MIXIN*/
+
+@mixin posicionesRelativas {
+    position: relative;
+}

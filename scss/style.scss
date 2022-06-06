@@ -1,0 +1,42 @@
+/*IMPORTS INDEX*/
+
+@import './variables.scss';
+@import './fonts.scss';
+@import './header.scss';
+@import './body.scss';
+@import './main.scss';
+@import './footer.scss';
+
+/* IMPORTS SECCION PRODUCTOS */
+
+@import './header.scss';
+@import './body.scss';
+@import './mainProductos.scss';
+@import './mediaProductos.scss';
+@import './footer.scss';
+
+/* IMPORTS SECCION ARMA TU PC */
+
+@import './header.scss';
+@import './body.scss';
+@import './mainH2armatupc.scss';
+@import './animacionesArmatupc.scss';
+@import './footer.scss';
+
+/* IMPORTS SECCION SOBRE NOSOTROS */
+
+
+@import './header.scss';
+@import './body.scss';
+@import './mainSobrenosotros.scss';
+@import './mediaSobrenosotros';
+@import './footer.scss';
+
+/* IMPORTS SECCION CONTACTO */
+
+
+@import './header.scss';
+@import './body.scss';
+@import './formularioContacto.scss';
+@import './mediaContacto.scss';
+@import './footer.scss';

@@ -1,0 +1,23 @@
+/*MAIN*/
+
+.navbar {
+
+    background-color:$color-seccion;
+    
+}
+
+
+.carrousel_h5 {
+    background-color:$color-seccion2;
+    padding: 1px ;
+    margin: 10px;
+    font-family: $font-seccion;
+    font-size: 22px;
+}
+
+
+.p_carrousel{
+    font-family: $font-parrafos;
+    font-size: 17px;
+    color:map-get($colorParrafos,Primario);
+}

@@ -1,0 +1,40 @@
+/*FORMULARIO SECCION CONTACTO "MAIN"*/
+
+.form {
+    width: 450px;
+    margin: auto;
+    background: rgba(85, 85, 94, 0.973);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    border:groove
+}
+.h2_contacto {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform:uppercase ;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: rgba(194, 111, 91, 0.863);
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+textarea {
+    height: 200px;
+}
+.boton {
+    background-color: rgba(233, 66, 88, 0.651);
+    padding: 20px;
+    border-radius: 10px;
+}
+.boton:hover {
+    cursor: pointer;
+}

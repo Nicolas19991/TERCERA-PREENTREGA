@@ -1,0 +1,67 @@
+/*MEDIA QUERIES MAIN PRODUCTOS*/
+
+@media (max-width:1199px) {
+    .contenido {
+    
+    margin: 4px;
+}
+}
+
+@media   (max-width:768px) {
+
+.contenedor_cartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+
+.box_titulo2 {
+    bottom: 10px;
+}
+
+}
+
+@media  (max-width:550px) {
+.contenedor_cartas {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70px;
+    top: 40px;
+}
+.box_titulo2 {
+    position: relative;
+    top: 40px;
+    width: 335px;
+}
+
+
+.box_titulo3 {
+    position: relative;
+    top: 40px;
+    width: 335px;
+    text-align: center;
+    
+}
+
+
+.box_titulo4 {
+    position: relative;
+    top: 40px;
+    width: 335px;
+}
+
+.h2_mineria {
+
+    font-size: 22px;
+}
+
+.box_titulo{
+    text-align: center;
+}
+
+}

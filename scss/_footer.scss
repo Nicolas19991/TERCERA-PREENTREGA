@@ -1,0 +1,13 @@
+/*FOOTER*/
+
+.footer {
+    background-color: $color-seccion;
+    padding: 3rem;
+}
+
+
+.p_footer{
+    @extend .p_carrousel;
+    font-family: $font-parrafos;
+    color:map-get($colorParrafos,secundario);
+}

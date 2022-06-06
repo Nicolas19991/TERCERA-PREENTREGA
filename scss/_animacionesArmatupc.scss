@@ -1,0 +1,37 @@
+/*ANIMACIONES,TRANSICIONES Y TRANSFORMACIONES "SECCION ARMA TU PC" */
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img img{
+    transition: all 1.3s ease;
+}
+
+.card-img :hover {
+    transform: scale(1.1);
+}
+
+.container1 .card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.container1 .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px  rgba(0,0,0,0.2);
+}
+
+.h5 + .p {
+    color: rgba(240, 20, 20, 0.76);
+}
+
+img:not(:hover){
+    filter: blur(0.8px);
+}
+
+p::first-letter{
+    font-size: 17px;
+}
+  

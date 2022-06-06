@@ -1,0 +1,570 @@
+/*IMPORTS INDEX*/
+/*COLORES*/
+/*FONTS*/
+/*MAP GET*/
+/*MIXIN*/
+/*FUENTES UTILIZADAS */
+@import url(" https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob, .logob[src$=".png"] {
+  width: 200px;
+  right: 8px;
+  text-align: center; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  font-size: 35px;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+.h1, .logob, .logob[src$=".png"] {
+  position: relative; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*MAIN*/
+.navbar {
+  background-color: #212529; }
+
+.carrousel_h5 {
+  background-color: #d15757;
+  padding: 1px;
+  margin: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px; }
+
+.p_carrousel, .p_footer {
+  font-family: monospace;
+  font-size: 17px;
+  color: #beb3ff; }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace;
+  color: #df9a8e; }
+
+/* IMPORTS SECCION PRODUCTOS */
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob, .logob[src$=".png"] {
+  width: 200px;
+  right: 8px;
+  text-align: center; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  font-size: 35px;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+.h1, .logob, .logob[src$=".png"] {
+  position: relative; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*MAIN SECCION PRODUCTOS*/
+.main_2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.titulo {
+  font-family: 'Orbitron', sans-serif; }
+
+.box_titulo2 {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 25px;
+  width: 93%;
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
+  background-color: rgba(228, 190, 190, 0.452);
+  padding: 25px; }
+
+.contenedor_cartas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 5px;
+  width: 100%;
+  margin: 30px; }
+
+.h2_productos {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  color: #fffdfd; }
+
+.contenido {
+  box-shadow: 0 0 7px;
+  margin: 50px;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  color: white;
+  bottom: 20px; }
+
+.imagproducto {
+  width: 210px;
+  height: 150px;
+  margin: 20px; }
+
+.informacion {
+  background-color: rgba(168, 57, 57, 0.527); }
+
+.notebook {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #5a4a4a; }
+
+.h2_nombres {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  color: rgba(255, 67, 67, 0.836);
+  margin-bottom: 15px; }
+
+.precio {
+  height: 25px;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000; }
+
+.box_titulo3 {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 5px;
+  width: 93%;
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
+  background-color: rgba(228, 190, 190, 0.452);
+  padding: 25px; }
+
+.h2_consola_de_video_juegos {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  color: #fffdfd; }
+
+.box_titulo4 {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 5px;
+  width: 93%;
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
+  background-color: rgba(228, 190, 190, 0.452);
+  padding: 25px; }
+
+.h2_mineria {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  color: #fffdfd; }
+
+/*MEDIA QUERIES MAIN PRODUCTOS*/
+@media (max-width: 1199px) {
+  .contenido {
+    margin: 4px; } }
+
+@media (max-width: 768px) {
+  .contenedor_cartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center; }
+  .box_titulo2 {
+    bottom: 10px; } }
+
+@media (max-width: 550px) {
+  .contenedor_cartas {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70px;
+    top: 40px; }
+  .box_titulo2 {
+    position: relative;
+    top: 40px;
+    width: 335px; }
+  .box_titulo3 {
+    position: relative;
+    top: 40px;
+    width: 335px;
+    text-align: center; }
+  .box_titulo4 {
+    position: relative;
+    top: 40px;
+    width: 335px; }
+  .h2_mineria {
+    font-size: 22px; }
+  .box_titulo {
+    text-align: center; } }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace;
+  color: #df9a8e; }
+
+/* IMPORTS SECCION ARMA TU PC */
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob, .logob[src$=".png"] {
+  width: 200px;
+  right: 8px;
+  text-align: center; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  font-size: 35px;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+.h1, .logob, .logob[src$=".png"] {
+  position: relative; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*MAIN H2 "SUBTITULOS" SECCION ARMA TU PC*/
+.h2 {
+  font-family: 'Kanit', sans-serif;
+  background-color: #867575;
+  border-radius: 5px;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px; }
+
+/*ANIMACIONES,TRANSICIONES Y TRANSFORMACIONES "SECCION ARMA TU PC" */
+.card-img {
+  overflow: hidden; }
+
+.card-img img {
+  transition: all 1.3s ease; }
+
+.card-img :hover {
+  transform: scale(1.1); }
+
+.container1 .card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.25s; }
+
+.container1 .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.h5 + .p {
+  color: rgba(240, 20, 20, 0.76); }
+
+img:not(:hover) {
+  filter: blur(0.8px); }
+
+p::first-letter {
+  font-size: 17px; }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace;
+  color: #df9a8e; }
+
+/* IMPORTS SECCION SOBRE NOSOTROS */
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob, .logob[src$=".png"] {
+  width: 200px;
+  right: 8px;
+  text-align: center; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  font-size: 35px;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+.h1, .logob, .logob[src$=".png"] {
+  position: relative; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*MAIN SOBRE NOSOTROS*/
+.h2_sobre_nosotros {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: #fafafa;
+  margin-top: 50px;
+  text-transform: capitalize;
+  background-color: rgba(79, 113, 207, 0.534);
+  margin-left: 90px;
+  margin-right: 90px;
+  border-style: groove;
+  border-radius: 40px; }
+
+.p_sobre_nosotros {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  text-align: initial;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+  line-height: 25px;
+  margin-top: 70px;
+  color: white; }
+
+.p_sobre_nosotros2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 65px;
+  color: white; }
+
+.p_sobre_nosotros3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 1000px;
+  margin-top: 50px;
+  color: white; }
+
+.p_sobre_nosotros4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  text-align: center;
+  color: white; }
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50px; }
+
+/*MEDIA QUERIES "MAIN" SOBRE NOSOTROS*/
+@media (max-width: 550px) {
+  .h2_sobre_nosotros {
+    font-size: 16px; }
+  .p_sobre_nosotros {
+    text-align: center;
+    font-size: 22px; }
+  .p_sobre_nosotros2 {
+    font-size: 22px; }
+  .p_sobre_nosotros3 {
+    font-size: 22px; }
+  .p_sobre_nosotros4 {
+    font-size: 22px; } }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace;
+  color: #df9a8e; }
+
+/* IMPORTS SECCION CONTACTO */
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob, .logob[src$=".png"] {
+  width: 200px;
+  right: 8px;
+  text-align: center; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  font-size: 35px;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+.h1, .logob, .logob[src$=".png"] {
+  position: relative; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*FORMULARIO SECCION CONTACTO "MAIN"*/
+.form {
+  width: 450px;
+  margin: auto;
+  background: rgba(85, 85, 94, 0.973);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  border: groove; }
+
+.h2_contacto {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: rgba(194, 111, 91, 0.863); }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px; }
+
+textarea {
+  height: 200px; }
+
+.boton {
+  background-color: rgba(233, 66, 88, 0.651);
+  padding: 20px;
+  border-radius: 10px; }
+
+.boton:hover {
+  cursor: pointer; }
+
+/*MEDIA QUERIES SECCION CONTACTO*/
+@media (max-width: 550px) {
+  .form {
+    width: 350px; } }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace;
+  color: #df9a8e; }

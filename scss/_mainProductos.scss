@@ -1,0 +1,121 @@
+/*MAIN SECCION PRODUCTOS*/
+
+.main_2 {
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.box_titulo2{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    width: 93%;
+    border-end-start-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: rgba(228, 190, 190, 0.452);
+    padding: 25px;
+}
+
+.contenedor_cartas{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+    margin: 30px;
+}
+.h2_productos {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 253, 253);
+}
+.contenido {
+    box-shadow: 0 0 7px;
+    margin: 50px;
+    width: 250px;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    bottom: 20px;
+}
+.imagproducto {
+    
+    width: 210px;
+    height: 150px ;
+    margin: 20px;
+}
+.informacion {
+
+    background-color: rgba(168, 57, 57, 0.527);
+}
+.notebook {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(90, 74, 74);
+}
+.h2_nombres {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgba(255, 67, 67, 0.836);
+    margin-bottom: 15px;
+}
+.precio {
+    height: 25px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.box_titulo3{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+    width: 93%;
+    border-end-start-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: rgba(228, 190, 190, 0.452);
+    padding: 25px;
+}
+
+.h2_consola_de_video_juegos {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 253, 253);
+}
+
+.box_titulo4 {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+    width: 93%;
+    border-end-start-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: rgba(228, 190, 190, 0.452);
+    padding: 25px;
+}
+
+.h2_mineria {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 253, 253);
+}
